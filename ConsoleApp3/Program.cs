@@ -20,7 +20,7 @@ namespace ConsoleApp3
                 Console.WriteLine(Tab[i]);
 
             }
-            Console.WriteLine("Wiosna\n");
+            Console.WriteLine("Wiosna lato zima\n");
             Console.ReadKey();
 
 
