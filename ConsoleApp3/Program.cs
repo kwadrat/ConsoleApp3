@@ -89,7 +89,7 @@ namespace ConsoleApp3
                 }
             }
             Console.WriteLine("Zadanie 3");
-            const int IR_ROWS = 4;
+            int IR_ROWS = 4;
             int [][] irreg = new int [IR_ROWS][];
             irreg[0] = new int [4] {1, 2, 3, 4};
             irreg[1] = new int [2] {5, 6};
