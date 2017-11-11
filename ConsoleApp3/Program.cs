@@ -18,7 +18,7 @@ namespace ConsoleApp3
             char znak = 'x';
             Console.WriteLine(frac);
             int[] Tab = new int[SIZE];
-            Console.WriteLine("Zadanie 1")
+            Console.WriteLine("Zadanie 1");
             for (int i = 0; i < SIZE; i++)
             {
                 Tab[i] = SIZE - i;
@@ -57,7 +57,7 @@ namespace ConsoleApp3
                     }
                 }
             }
-            Console.WriteLine("Zadanie 2")
+            Console.WriteLine("Zadanie 2");
             const int ROW = 3;
             const int COL = 5;
             int cell_value;
@@ -88,7 +88,7 @@ namespace ConsoleApp3
                     }
                 }
             }
-            Console.WriteLine("Zadanie 3")
+            Console.WriteLine("Zadanie 3");
             const int IR_ROWS = 4;
             int [][] irreg = new int [IR_ROWS][];
             irreg[0] = new int [4] {1, 2, 3, 4};
@@ -113,7 +113,7 @@ namespace ConsoleApp3
                     }
                 }
             }
-            Console.WriteLine("Zadanie 4")
+            Console.WriteLine("Zadanie 4");
             const int RAND_ROW = 6;
             const int RAND_COL = 3;
             /* Koniec zadan */
