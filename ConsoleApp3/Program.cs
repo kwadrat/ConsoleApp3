@@ -101,7 +101,7 @@ namespace ConsoleApp3
                 {
                     for (int col_nr = 0; col_nr < irreg[row_nr].Length; col_nr++)
                     {
-                        Console.Write(irreg[row_nr, col_nr]);
+                        Console.Write(irreg[row_nr][col_nr]);
                         if(col_nr == irreg[row_nr].Length - 1)
                         {
                             Console.WriteLine();
