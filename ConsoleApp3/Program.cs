@@ -10,7 +10,7 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            const int SIZE = 15;
+            int SIZE = 15;
             string koncowy_tekst = "Wiosna lato zima\n";
             int liczba = 2048;
             double frac = 3.13;
@@ -58,8 +58,8 @@ namespace ConsoleApp3
                 }
             }
             Console.WriteLine("Zadanie 2");
-            const int ROW = 3;
-            const int COL = 5;
+            int ROW = 3;
+            int COL = 5;
             int cell_value;
             int [, ] rect_a = new int [ROW, COL];
             for (int row_nr = 0; row_nr < ROW; row_nr++)
@@ -114,8 +114,8 @@ namespace ConsoleApp3
                 }
             }
             Console.WriteLine("Zadanie 4");
-            const int RAND_ROW = 6;
-            const int RAND_COL = 3;
+            int RAND_ROW = 6;
+            int RAND_COL = 3;
             /* Koniec zadan */
             Console.WriteLine("{1} A: {1,3} B: {1,3:F} C: {1,3:e} D: {0} E: {2} F: {3}", "end", 1e-7 / 3.0, sizeof(char), znak);
             Console.WriteLine(Tab);
