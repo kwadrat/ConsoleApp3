@@ -13,7 +13,7 @@ namespace ConsoleApp3
             const int SIZE = 15;
             string koncowy_tekst = "Wiosna lato zima\n";
             int liczba = 2048;
-            double frac = 3.12;
+            double frac = 3.13;
             Console.WriteLine(liczba);
             char znak = 'x';
             Console.WriteLine(frac);
