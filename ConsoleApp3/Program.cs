@@ -8,7 +8,7 @@ namespace ConsoleApp3
 {
     class Program
     {
-        const int SIZE = 20;
+        const int SIZE = 15;
         static void Main(string[] args)
         {
             int[] Tab = new int[SIZE];
