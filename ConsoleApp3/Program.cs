@@ -115,12 +115,15 @@ namespace ConsoleApp3
             }
             if(true)
             {
-                foreach(int one_elem in irreg)
+                foreach(int[] one_row in irreg)
                 {
-                    Console.Write(one_elem);
-                    Console.Write(" ");
+                    foreach(int one_elem in one_row)
+                    {
+                        Console.Write(one_elem);
+                        Console.Write(" ");
+                    }
+                    Console.WriteLine();
                 }
-                Console.WriteLine();
             }
             Console.WriteLine("Zadanie 4");
             int RAND_ROW = 6;
