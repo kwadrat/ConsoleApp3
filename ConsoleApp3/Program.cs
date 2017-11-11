@@ -123,7 +123,7 @@ namespace ConsoleApp3
             {
                 for (int col_nr = 0; col_nr < RAND_COL; col_nr++)
                 {
-                    rand_value = rnd.Next(0, 2);
+                    rand_value = rnd.Next(10, 13);
                     rand_a[row_nr, col_nr] = rand_value;
                 }
             }
