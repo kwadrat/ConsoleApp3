@@ -113,6 +113,15 @@ namespace ConsoleApp3
                     }
                 }
             }
+            if(true)
+            {
+                foreach(int one_elem in irreg)
+                {
+                    Console.Write(one_elem);
+                    Console.Write(" ");
+                }
+                Console.WriteLine();
+            }
             Console.WriteLine("Zadanie 4");
             int RAND_ROW = 6;
             int RAND_COL = 4;
