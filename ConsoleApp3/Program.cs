@@ -18,6 +18,7 @@ namespace ConsoleApp3
             char znak = 'x';
             Console.WriteLine(frac);
             int[] Tab = new int[SIZE];
+            /* Zadanie 1 */
             for (int i = 0; i < SIZE; i++)
             {
                 Tab[i] = SIZE - i;
@@ -53,6 +54,37 @@ namespace ConsoleApp3
                     else
                     {
                         Console.Write(" ");
+                    }
+                }
+            }
+            /* Zadanie 2 */
+            const int ROW = 3;
+            const int COL = 5;
+            int cell_value;
+            int [, ] rect_a = new int [ROW, COL];
+            for (int row_nr = 0; row_nr < ROW; row_nr++)
+            {
+                for (int col_nr = 0; col_nr < COL; col_nr++)
+                {
+                    cell_value = col_nr + 1 + row_nr * COL;
+                    rect_a[row_nr, col_nr] = cell_value;
+                }
+            }
+            if(true)
+            {
+                for (int row_nr = 0; row_nr < ROW; row_nr++)
+                {
+                    for (int col_nr = 0; col_nr < COL; col_nr++)
+                    {
+                        Console.Write(rect_a[row_nr, col_nr]);
+                        if(col_nr == COL - 1)
+                        {
+                            Console.WriteLine();
+                        }
+                        else
+                        {
+                            Console.Write(" ");
+                        }
                     }
                 }
             }
