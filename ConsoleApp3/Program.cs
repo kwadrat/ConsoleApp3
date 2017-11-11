@@ -22,7 +22,7 @@ namespace ConsoleApp3
             {
                 Tab[i] = SIZE - i;
             }
-            if(1)
+            if(true)
             {
                 for (int i = 0; i < SIZE; i++)
                 {
@@ -41,7 +41,7 @@ namespace ConsoleApp3
             {
                 Tab[i] = SIZE - i - 1;
             }
-            if(1)
+            if(true)
             {
                 for (int i = 0; i < SIZE; i++)
                 {
