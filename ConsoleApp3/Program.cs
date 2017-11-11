@@ -9,6 +9,7 @@ namespace ConsoleApp3
     class Program
     {
         const int SIZE = 15;
+        string koncowy_tekst = "Wiosna lato zima\n";
         static void Main(string[] args)
         {
             int[] Tab = new int[SIZE];
