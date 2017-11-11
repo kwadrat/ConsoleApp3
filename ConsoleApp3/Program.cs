@@ -27,6 +27,8 @@ namespace ConsoleApp3
                 Console.WriteLine(Tab[i]);
 
             }
+            Console.WriteLine("{1}A{1,3}B{1,3:F}C{1,3:e}D{0}\n", "end", 1e-7 / 3.0);
+            Console.WriteLine(Tab);
             Console.WriteLine(koncowy_tekst);
             Console.ReadKey();
 
