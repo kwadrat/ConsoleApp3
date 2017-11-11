@@ -116,7 +116,7 @@ namespace ConsoleApp3
             Console.WriteLine("Zadanie 4");
             int RAND_ROW = 6;
             int RAND_COL = 4;
-            int [, ] rect_a = new int [RAND_ROW, RAND_COL];
+            int [, ] rand_a = new int [RAND_ROW, RAND_COL];
             Random rnd = new Random();
             int rand_value;
             for (int row_nr = 0; row_nr < RAND_ROW; row_nr++)
@@ -124,7 +124,7 @@ namespace ConsoleApp3
                 for (int col_nr = 0; col_nr < RAND_COL; col_nr++)
                 {
                     rand_value = rnd.Next(0, 2);
-                    rect_a[row_nr, col_nr] = rand_value;
+                    rand_a[row_nr, col_nr] = rand_value;
                 }
             }
             if(true)
@@ -133,7 +133,7 @@ namespace ConsoleApp3
                 {
                     for (int col_nr = 0; col_nr < RAND_COL; col_nr++)
                     {
-                        Console.Write(rect_a[row_nr, col_nr]);
+                        Console.Write(rand_a[row_nr, col_nr]);
                         if(col_nr == RAND_COL - 1)
                         {
                             Console.WriteLine();
