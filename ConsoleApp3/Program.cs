@@ -10,7 +10,7 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            int SIZE = 15;
+            int SIZE = 14;
             string koncowy_tekst = "Wiosna lato zima\n";
             int liczba = 2048;
             double frac = 3.13;
