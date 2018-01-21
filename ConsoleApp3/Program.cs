@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace ConsoleApp3
 {
@@ -18,6 +19,12 @@ namespace ConsoleApp3
             char znak = 'x';
             Console.WriteLine(frac);
             int[] Tab = new int[SIZE];
+            if(false)
+            {
+                StreamWriter zz = new StreamWriter(@"e:\abc.txt");
+                zz.WriteLine("inne");
+                zz.Close();
+            }
             Console.WriteLine("Zadanie 1");
             for (int i = 0; i < SIZE; i++)
             {
